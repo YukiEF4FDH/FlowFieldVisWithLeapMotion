@@ -64,5 +64,4 @@ Robust 3-D Field Line Query Based on Data Fusion of Multiple Leap Motions. IEEE 
 Open source codes of dti fiber explorer. https://sourceforge.net/, 2009. A Novel Interface for Interactive Exploration of DTI Fibers.
 
 # Appendix
-- Abstract of the thesis could be accessed [here](https://www.dropbox.com/s/4smqykv2i2b37o5/XueyiChen_UndergraduateThesis_Abstract.pdf?dl=0).
 - Detailed slides could be accessed [here](https://www.dropbox.com/s/gahzhnwnt3ivxxf/FlowFieldVisWithLeapMotion.pdf?dl=0).
