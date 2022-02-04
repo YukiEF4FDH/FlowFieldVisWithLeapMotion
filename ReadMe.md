@@ -39,7 +39,7 @@ SDK: Leap Motion SDK 4.0.0.
 # To Use
 1. Select the dataset to load.
 2. Input the user-defined derived feature for querying.
-   - You can both input it in real-time, or instead of loading an existing 2-D or 3-D curve file as input.
+   - You can both input it in real-time, or instead, loading an existing 2-D or 3-D curve file as input.
    - While inputting it in real-time, both mouse or leap motion are available.
    - Notice that the input curve could be saved in local, so that you can load it next time.
 3. You can interactively drag, rotate or zoom the main view so as to explore the resulted visualization.
