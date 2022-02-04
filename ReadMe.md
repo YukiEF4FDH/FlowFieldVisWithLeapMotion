@@ -56,6 +56,7 @@ Notice that the green curve is 2-D input with mouse (sketching), while the blue 
 # Reference
 [1] Shunlong Ye†, Guang Yang†, Ziyu Yao†, Xueyi Chen†, Ting Jin†, Genlin Ji, and Richen Liu*.
 Robust 3-D Field Line Query Based on Data Fusion of Multiple Leap Motions. IEEE Visualization 2020 (IEEE VIS), Salt Lake City, USA, October 25-30, 2020. (CCF A Poster).
+
 [2] W. Chen, Z. Ding, S. Zhang, A. MacKay-Brandt, S. Correia, H. Qu, J. A. Crow, D. F. Tate, Z. Yan, and Q. Peng. 
 Open source codes of dti fiber explorer. https://sourceforge.net/, 2009. A Novel Interface for Interactive Exploration of DTI Fibers.
 
