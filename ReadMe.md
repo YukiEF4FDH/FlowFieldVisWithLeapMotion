@@ -1,6 +1,7 @@
 # Interactive Flow Fields Visualization based on Gesture Query in 3-D with Leap Motion
 
 This is the project for my undergraduate thesis (2020.06).
+
 The paper is also accepted by IEEE VIS 2020 as a poster paper [1].
 
 Note that we only uploaded the core src files here.
