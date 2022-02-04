@@ -1,24 +1,25 @@
 # Interactive Flow Fields Visualization based on Gesture Query in 3-D with Leap Motion
 
-This is the project for my undergratuate thesis (2020.06).
+This is the project for my undergraduate thesis (2020.06).
 The paper is also accepted by IEEE VIS 2020 as a poster paper [1].
 
 Note that we only uploaded the core src files here.
+
 So the project **cannot be successfully installed** with these files.
 
 # Introduction
 Flow field visualization is an important topic in the field of Scientific Visualization.
-They mainly focus on simulation of vector field features using geometric elements such as lines, surfaces and bodies.
+They mainly focus on the simulation of vector field features using geometric elements such as lines, surfaces, and bodies.
 Related research topics include computational efficiency, visualization of complex meshes and multiple variables, feature extraction and tracking such as uncertainty, etc.
-Specifically, This research is mainly about the feature extraction.
+Specifically, This research is mainly about feature extraction.
 
-Except for statistical features, user-defined derived features is also a vital target of flow field visualization.
-Interactive visualiztion of such features would introduce domain knowledge of natural sicence experts into the analysis process.
-Nevertheless, traditional methods including sketching (with mouse) or querying (by Domain Specific Language) enforce limits the exploration into 2-D enviroments,
+Except for statistical features, user-defined derived features are also a vital target of flow field visualization.
+Interactive visualization of such features would introduce domain knowledge of natural science experts into the analysis process.
+Nevertheless, traditional methods including sketching (with the mouse) or querying (by Domain Specific Language) enforce limits the exploration into 2-D environments,
 though the flow field data could be 3-D in most cases.
 
 We design this system so as to support interactive exploration of 3-D flow field data visualization for natural science experts
-with the help of [Leap Motion](https://en.wikipedia.org/wiki/Leap_Motion), supporting fingures and hands movement as inputs (without mouse, hand contact or touching),
+with the help of [Leap Motion](https://en.wikipedia.org/wiki/Leap_Motion), supporting figures and hands movement as inputs (without the mouse, hand contact, or touching),
 so as to further support flow field data analysis and decision making during the visualization exploration.
 
 ## The overview of this system
@@ -29,17 +30,19 @@ so as to further support flow field data analysis and decision making during the
 
 # Dependencies
 The system is realized based on DTI Fiber Explorer[2], with C++ (MFC and OpenGL).
+
 IDE: Microsoft Visual Studio 2019.
+
 SDK: Leap Motion SDK 4.0.0.
 
 # To Use
 1. Select the dataset to load.
 2. Input the user-defined derived feature for querying.
-   - You can both input it in real time, or instead loading an existing 2-D or 3-D curve file as input.
-   - While input it in real time, both mouse or leap motion are avaliable.
-   - Notice that the inputed curve could be saved in local, so that you can load it next time.
+   - You can both input it in real-time, or instead of loading an existing 2-D or 3-D curve file as input.
+   - While inputting it in real-time, both mouse or leap motion are available.
+   - Notice that the input curve could be saved in local, so that you can load it next time.
 3. You can interactively drag, rotate or zoom the main view so as to explore the resulted visualization.
-4. Parameter adjustment is always avaliable during the exploration. The result would be updated immediately.
+4. Parameter adjustment is always available during the exploration. The result would be updated immediately.
 
 # User Cases
 Notice that the green curve is 2-D input with mouse (sketching), while the blue curve is 3-D input with Leap Motion.
